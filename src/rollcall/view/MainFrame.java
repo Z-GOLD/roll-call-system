@@ -6,10 +6,8 @@ import rollcall.service.StatisticsService;
 import javax.swing.*;
 
 /**
- * 主窗口 v0.3-Beta —— 公测版
- * MVC架构，三个功能面板均已稳定
- * 数据统计模块已通过测试，正式上线
- * 新增: 救场机制、加权随机算法优化
+ * 主窗口 —— MVC架构
+ * 使用JTabbedPane组织三个功能面板
  */
 public class MainFrame extends JFrame {
 
@@ -17,7 +15,7 @@ public class MainFrame extends JFrame {
     private final StatisticsService statisticsService = new StatisticsService();
 
     public MainFrame() {
-        setTitle("课堂点名系统 v0.3-Beta [公测版]");
+        setTitle("基于有状态的课堂点名系统 v1.0");
         setSize(900, 650);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
