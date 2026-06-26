@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>基于有状态的课堂点名系统 - 团队博客</title>
+<title>基于有状态的课堂点名系统 - 课程设计博客</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f7fa; color: #333; line-height: 1.8; }
@@ -63,7 +63,7 @@
 
 <header>
   <h1>基于有状态的课堂点名系统</h1>
-  <p>面向对象程序设计(Java) 课程设计 · 团队项目博客</p>
+  <p>面向对象程序设计(Java) 课程设计 · 个人项目博客</p>
 </header>
 
 <div class="container">
@@ -207,39 +207,27 @@
 
     <h3>🎲 课堂点名界面</h3>
     <img src="rollcall-panel.png" alt="课堂点名界面" class="screenshot">
-    <p class="screenshot-caption">功能：加权随机点名、答出/未答出标记、救场模式切换、请假自动排除 | 负责人：组长 — 核心点名与架构</p>
+    <p class="screenshot-caption">功能：加权随机点名、答出/未答出标记、救场模式切换、请假自动排除</p>
 
     <h3>📊 数据统计界面</h3>
     <img src="statistics-panel.png" alt="数据统计界面" class="screenshot">
-    <p class="screenshot-caption">功能：汇总卡片、排名表（按点名次数/答出率）、频次分布 | 负责人：组员 B — 统计与数据分析</p>
+    <p class="screenshot-caption">功能：汇总卡片、排名表（按点名次数/答出率）、频次分布</p>
   </div>
 
-  <!-- 七、团队成员分工 -->
+  <!-- 七、个人负责模块 -->
   <div class="card">
-    <h2>七、团队成员负责模块</h2>
+    <h2>七、个人负责模块</h2>
     <table>
       <tr><th>成员</th><th>角色</th><th>负责模块</th><th>核心文件</th></tr>
       <tr>
         <td>—</td>
-        <td>组长</td>
-        <td>核心点名与系统架构：加权随机算法、救场机制、点名交互界面、主窗口三面板布局、Git 项目管理</td>
-        <td>MainFrame.java<br>RollCallService.java<br>WeightedRandom.java<br>RollCallPanel.java</td>
-      </tr>
-      <tr>
-        <td>—</td>
         <td>组员 A</td>
         <td>数据管理与持久化：DAO 数据访问层、Excel 导入导出、学生管理面板（增删改查）、学生数据模型设计</td>
-        <td>StudentDAO.java<br>ExcelUtil.java<br>StudentPanel.java<br>Student.java</td>
-      </tr>
-      <tr>
-        <td>—</td>
-        <td>组员 B</td>
-        <td>统计与数据分析：统计服务、统计面板 UI、汇总指标计算、频次分布、排名表生成</td>
-        <td>StatisticsService.java<br>StatisticsPanel.java<br>RollCallRecord.java</td>
+        <td>StudentDAO.java<br>ExcelUtil.java<br>StudentPanel.java<br>Student.java<br>RollCallRecord.java</td>
       </tr>
     </table>
     <p style="color:#999;font-size:0.85em;margin-top:10px;">
-      ⚠️ 请在此处填写团队成员的姓名
+      ⚠️ 请在此处填写姓名
     </p>
   </div>
 
@@ -256,7 +244,7 @@
 
   <!-- 九、Git 提交记录 -->
   <div class="card">
-    <h2>九、团队成员 Git 提交记录</h2>
+    <h2>九、Git 提交记录</h2>
 
     <h3>📜 项目完整提交历史</h3>
     <div class="commit-list">
